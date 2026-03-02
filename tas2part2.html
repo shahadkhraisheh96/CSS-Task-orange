@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 part 2</title>
+    <style>
+          * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            display: flex;
+            margin: 6%;
+            padding: 10px;
+            background-color: rgba(224, 222, 222, 0.367);
+            border-radius: 2px;
+            justify-content: space-between;
+        }
+        .logo h1{
+            font-weight:lighter;
+            color: rgb(47, 45, 45);
+        }
+        .menu ul{
+            display: flex;
+            list-style: none;
+            align-items: end;
+            margin-top:10px;
+            font-size: 15px;
+            text-shadow: #323030;
+        }
+        .menu li{
+            margin-left: 20px;
+
+
+        }
+        main{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+       
+        }
+        .login-form{
+            width: 200px;
+            height: 50px;
+            padding: 10px;
+          
+
+        }
+        .input-group{
+            margin-bottom: 20px;
+        }
+        label{
+            display: block;
+            margin-bottom: 6px;
+            color: #323030;
+        
+        }
+        input{
+            border: solid #7c7575;
+            border-width: 1px;
+            width: 200px;
+            height: 30px;
+            box-shadow: #7c7575 10px;
+            border-radius: 5px;
+
+        }
+        button{
+            width: 200px;
+            height: 30px;
+            background-color: rgb(85, 85, 253);
+            color: aliceblue;
+            border-radius: 5px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Scratch</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li style="color: rgb(97, 96, 96); font-weight: 50;">signup</li>
+                <li>Login</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="login-form">
+            <div class="input-group">
+                <label>
+                    Email
+                    <input type="email" required>
+                </label>
+            </div>
+            <div class="input-group">
+                <label>
+                    Password
+                    <input type="password" required>
+                </label>
+            </div>
+            <div class="input-group">
+                <button type="submit">Login</button>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
