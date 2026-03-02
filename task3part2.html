@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Member Login - Final Exercise</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #9c00c8; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-form {
+    background-color: white;
+    width: 800px;
+    height: 450px;
+    border-radius: 40px;
+    display: flex; 
+    overflow: hidden;
+  
+}
+
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; 
+}
+
+.image-section img {
+    width: 250px;
+    height: auto;
+}
+
+
+.form-section {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px 12px 40px; 
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+.login-btn {
+    background-color: #60cb8d;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 90px;
+ 
+}
+
+
+.links {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.links p { margin-bottom: 10px; }
+
+.links a {
+    color: #666;
+    text-decoration: none;
+}
+
+.create-account {
+    color: #2ed573 !important;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <div class="login-form">
+        <div class="image-section">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuy7e0Bnlq-ez2cp2_7tox6IjAsZ_GE7BSRL4Gttx1kg3wtYZdL0Ak3ns&s" alt="Laptop Graphic">
+        </div>
+
+        <div class="form-section">
+            <h2>Member Login</h2>
+            
+            <form>
+                <div class="input-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" placeholder="••••••" required>
+                </div>
+                
+                <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+
+            <div class="links">
+                <p>Forgot <a href="#">Username / Password ?</a></p>
+                <p><a href="#" class="create-account">Create your account →</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
